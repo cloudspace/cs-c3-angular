@@ -63,3 +63,10 @@ var colors = [
   ['data2', '#666666']
 ]
 ```
+
+## Setup
+
+- Install with either Bower or NPM
+- Require the module with common js or include the script tag in index.html
+- Include the stylesheet from either the node_modules or bower_components directory depending on your Install
+- Inject the 'csC3' module into your main module
