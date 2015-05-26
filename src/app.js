@@ -15,7 +15,7 @@
 
 module.exports = angular
   .module('csC3', [])
-  .directive('csCThree', ['csCThree', function(csCThree) {
+  .directive('csCThree', [function() {
     return {
       restict: 'A',
       scope: {
