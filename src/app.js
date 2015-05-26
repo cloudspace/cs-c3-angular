@@ -13,6 +13,8 @@
   </div>
  */
 
+var c3 = require('c3');
+
 module.exports = angular
   .module('csC3', [])
   .directive('csCThree', [function() {
